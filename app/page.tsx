@@ -1,19 +1,5 @@
-import Button from "@/components/ui/button";
-import Container from "@/components/common/Container";
-import SectionTitle from "@/components/common/SectionTitle";
+import LoginForm from "@/components/LoginForm";
 
-export default function HomePage() {
-  return (
-    <Container className="py-20">
-      <SectionTitle
-        subtitle="Insurance"
-        title="Welcome to Insurance System"
-        description="Professional reusable component setup completed."
-      />
-
-      <div className="flex justify-center">
-        <Button>Get Started</Button>
-      </div>
-    </Container>
-  );
+export default function Home() {
+  return <LoginForm />;
 }
